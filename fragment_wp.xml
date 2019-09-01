@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/wp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="WELFARE AND PRIVACY"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/welfare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="WELFARE"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/welfare_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welfare"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://bdl-india.in/?q=welfare"
+        android:textColor="@android:color/holo_blue_dark" />
+    <ImageView
+        android:id="@+id/ppimg"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_below="@+id/welfare_link"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pp" />
+
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>

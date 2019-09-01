@@ -1,0 +1,273 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.kjhan.bharathdynamicslimited.ProfileFragment">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.kjhan.bharathdynamicslimited.ProfileFragment">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kjhan.bharathdynamicslimited.ProfileFragment">
+
+
+    <TextView
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="EMPLOYEE PROFILE"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/loginverifymessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Login"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_green_dark"
+        android:text="@string/loginverifiedmessage"/>
+
+    <ImageView
+        android:id="@+id/empimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginverifymessage"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/lbname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/empimg"
+        android:layout_marginTop="20dp"
+        android:text="NAME : "
+        android:textStyle="bold"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/dbname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbname"
+        android:gravity="center"
+        android:text="add name here"
+        android:textColor="@android:color/black" />
+    <TextView
+        android:id="@+id/lbeid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbname"
+        android:layout_marginTop="20dp"
+        android:text="EMPLOYEE ID : "
+        android:textStyle="bold"
+        android:gravity="start"/>
+    <TextView
+        android:id="@+id/dbeid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbeid"
+        android:text="add employee id here"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:id="@+id/lbdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbeid"
+        android:layout_marginTop="20dp"
+        android:text="DESIGNATION : "
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbdes"
+        android:text="add designation here"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lbdep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbdes"
+        android:layout_marginTop="20dp"
+        android:text="DEPARTMENT : "
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbdep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lbdep"
+        android:gravity="center"
+        android:text="add department here"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/lbloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbdep"
+        android:layout_marginTop="20dp"
+        android:text="LOCATION : "
+        android:textStyle="bold"
+        android:gravity="left"/>
+
+    <TextView
+        android:id="@+id/dbloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbloc"
+        android:text="add bdl location here"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lbdoj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbloc"
+        android:layout_marginTop="20dp"
+        android:text="DATE OF JOINING:"
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbdoj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbdoj"
+        android:text="add ddmmyyyy here"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lbext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbdoj"
+        android:layout_marginTop="20dp"
+        android:text="LANDLINE EXTENSION: "
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbext"
+        android:text="add ext here"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lbcnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbext"
+        android:layout_marginTop="20dp"
+        android:text="CONTACT : "
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbcnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbcnt"
+        android:text="add num here"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lbema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbcnt"
+        android:layout_marginTop="20dp"
+        android:text="EMAIL :"
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/lbema"
+        android:text="add email here"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/lbadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/dbema"
+        android:layout_marginTop="20dp"
+        android:text="ADDRESS :"
+        android:textStyle="bold"
+        android:gravity="left"/>
+    <TextView
+        android:id="@+id/dbadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@id/lbadd"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:text="add address here "
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/loginverify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dbadd"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="68dp"
+        android:selectAllOnFocus="true"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="user ID HERE" />
+
+    <Button
+        android:id="@+id/logoutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginverify"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/logout_button"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"/>
+
+
+</RelativeLayout>
+</LinearLayout>
+
+
+</ScrollView>

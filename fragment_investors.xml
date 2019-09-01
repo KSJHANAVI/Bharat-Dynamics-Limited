@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/Investors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="INVESTORS"
+            android:textColor="@android:color/holo_red_dark"
+            android:textColorHint="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/annualreports_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Investors"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="ANNUAL REPORT"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/annualreports_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/annualreports_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/?q=annual-reports-0"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/financial_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/annualreports_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="FINANCIAL RESULTS"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/financial_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/financial_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/?q=financial-results"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/disclosures_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/financial_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="DISCLOSURES"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/disclosures_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disclosures_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/?q=disclousers"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/cg_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disclosures_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="CORPORATE GOVERNANCE"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cg_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cg_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/q=corporate-governance"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/sh_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cg_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="SHAREHOLDING PATTERN"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sh_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sh_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/q=shareholding-pattern"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/pc_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sh_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="POLICIES AND CODES"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pc_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pc_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/q=policies%20%26%20codes"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/np_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pc_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="NEWS PAPER CLIPPINGS"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/np_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/np_heading"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/q=news-paper-clippings"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/gi_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/np_link"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="GENERAL INFORMATION"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gi_heading1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gi_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="INVESTORS INFORMATION"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gi_link1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gi_heading1"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/sites/default/files/General%20Information0319.pdf#overlay-context=general-information%3Fq%3Dgeneral-information"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/gi_heading2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gi_link1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="SHAREHOLDER INFORMATION"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gi_link2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gi_heading2"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="http://bdl-india.in/sites/default/files/Important%20Announcement%20to%20Shareholders.pdf#overlay-context=general-information%3Fq%3Dgeneral-information"
+            android:textColorLink="@android:color/holo_blue_dark" />
+
+        <TextView
+            android:id="@+id/bdlmou_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gi_link2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="BDL MoU"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bdlmoudesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bdlmou_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="BDL,Hyderabad MoU of 2018-19 is available on Department of Pulblic Enterprises(DPE) website"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

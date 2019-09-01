@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/RTI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="RTI-ACT"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rti_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RTI"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="RIGHT TO INFORMATION(RTI) ACT-2005"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rti1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rti_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/rti1desc" />
+    <TextView
+        android:id="@+id/rtih1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rti1desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="APPELLATE AUTHORITY"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rtih1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih1"
+        android:layout_marginTop="20dp"
+        android:text="@string/rtih1desc" />
+    <TextView
+        android:id="@+id/rtih2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih1desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="CENTRAL PUBLIC INFORMATION OFFICER(FOR BDL,HYDERABAD)"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rtih2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih2"
+        android:layout_marginTop="20dp"
+        android:text="@string/rtih2desc" />
+    <TextView
+        android:id="@+id/rtih3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih2desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Asst. Public Information Officer:
+For BDL, Kanchanbagh Unit (KBU)"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rtih3desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih3"
+        android:layout_marginTop="20dp"
+        android:text="@string/rtih3desc" />
+    <TextView
+        android:id="@+id/rtih4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih3desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Asst. Public Information Officer:
+For BDL, Bhanur Unit (BU)"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rtih4desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih4"
+        android:layout_marginTop="20dp"
+        android:text="@string/rtih4desc" />
+    <TextView
+        android:id="@+id/rtih5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih4desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Asst. Public Information Officer:
+For BDL, Vizag Unit (VU)"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rtih5desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih5"
+        android:layout_marginTop="20dp"
+        android:text="@string/rtih5desc" />
+    <TextView
+        android:id="@+id/cc_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rtih5desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="CITIZEN CHARTER"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="INTRODUCTION"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc1"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc1desc" />
+    <TextView
+        android:id="@+id/cc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc1desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="THE CHARTER::"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc2"
+        android:layout_marginTop="20dp"
+        android:text="The Citizens’ Charter of Bharat Dynamics Limited (BDL) is appended below:" />
+    <TextView
+        android:id="@+id/cc21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc2desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="1. The Company"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc21desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc21"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc21desc" />
+    <TextView
+        android:id="@+id/cc22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc21desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2. The Vision"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc22desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc22"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc22desc" />
+    <TextView
+        android:id="@+id/cc23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc22desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="3. The Mission"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc23desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc23"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc23desc" />
+    <TextView
+        android:id="@+id/cc24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc23desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="4. The Strategy"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc24desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc24"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc24desc" />
+    <TextView
+        android:id="@+id/cc25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc24desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="5. The Business Transacted"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc25desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc25"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc25desc" />
+    <TextView
+        android:id="@+id/cc26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc25desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="6. The Standard"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc26desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc26"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc26desc" />
+    <TextView
+        android:id="@+id/cc27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc26desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="7. The Customers/Clients/Vendors"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc27desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc27"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc27desc" />
+    <TextView
+        android:id="@+id/cc28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc27desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="8. Services provided to Client/Customer Group"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc28desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc28"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc28desc" />
+    <TextView
+        android:id="@+id/cc29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc28desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="9. The Commitments"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc29desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc29"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc29desc" />
+    <TextView
+        android:id="@+id/cc210"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc29desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="10. Expectations from Client/Customers"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc210desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc210"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc210desc" />
+    <TextView
+        android:id="@+id/cc211"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc210desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="11. Customer Satisfaction Survey:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc211desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc211"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc211desc" />
+    <TextView
+        android:id="@+id/cc212"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc211desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="12. Users’ (Customers’) Training:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc212desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc212"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc212desc" />
+    <TextView
+        android:id="@+id/cc213"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc212desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="13. Grievance and Complaint Handling System:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc213desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc213"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc213desc" />
+    <TextView
+        android:id="@+id/cc214"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc213desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="14. Nodal Officers and Public Grievance Officers:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc214desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc214"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc214desc" />
+    <TextView
+        android:id="@+id/cc215"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc214desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="15. Transparency:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc215desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc215"
+        android:layout_marginTop="20dp"
+        android:text="@string/cc215desc" />
+    <TextView
+        android:id="@+id/cc216"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc215desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="CLICK THE LINK BELOW TO READ NODAL OFFICERS ANNEXURE"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cc216_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc216"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/cc216link"
+        android:textColorLink="@android:color/holo_red_light" />
+    <TextView
+        android:id="@+id/manu_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc216_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="BDL MANUAL"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/manu1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manu_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="FINANCE MANUAL"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/manu1l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manu1"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://www.bdl-india.in/sites/default/files/finance.pdf#overlay-context=bdl-manuals"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/manu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manu1l"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="PERSONNEL AND ADMINISTRATION MANUALS"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/manu2l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/manu2"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://www.bdl-india.in/pa-manuals"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+    <TextView
+        android:id="@+id/Products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="PRODUCTS"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/p1234567_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Products"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p1234567" />
+    <TextView
+        android:id="@+id/p1_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p1234567_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="1. MILAN 2T"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p1_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped1" />
+    <TextView
+        android:id="@+id/p2_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p1desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2. FLAME (Fagot Launcher Adapted to Milan Equipment)"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p2_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped2" />
+    <TextView
+        android:id="@+id/p3_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p2desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="3. KONKURS - M"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p3desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p3_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped3" />
+    <TextView
+        android:id="@+id/p4_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p3desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="4. INVAR (Round 3 UBK 20)"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p4desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p4_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped4" />
+    <TextView
+        android:id="@+id/p5_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p4desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="5. NAG"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p5desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p5_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped5" />
+    <TextView
+        android:id="@+id/p6_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p5desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="6. AKASH WEAPON SYSTEM"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p6desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p6_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped6" />
+    <TextView
+        android:id="@+id/p7891011_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p6desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="MORE PRODUCTS"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/pall_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p7891011_heading"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/p7891011" />
+    <TextView
+        android:id="@+id/p7_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pall_img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="7.MRSAM (Medium Range Surface to Air Missile)"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/p7desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p7_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped7" />
+    <TextView
+        android:id="@+id/p8_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p7desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="8. TAL (Torpedo Advanced Lightweight) "
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pedesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p8_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped8" />
+    <TextView
+        android:id="@+id/p9_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pedesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="9. VARUNASTRA OR HEAVY WEIGHT TORPEDO"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/p9desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p9_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped9" />
+    <TextView
+        android:id="@+id/p10_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p9desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="10. SUBMARINE FIRED DECOY "
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/p10desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p10_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped10" />
+    <TextView
+        android:id="@+id/p11_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p10desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="11. CMDS (Counter Measures Dispensing System)"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/p11desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/p11_heading"
+        android:layout_marginTop="20dp"
+        android:text="@string/ped11" />
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/Suppliers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="SUPPLIERS"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/eproc_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Suppliers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="E-PROCUREMENT"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eproc_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="E-PROCUREMENT TRAINING"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep1_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep1"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://www.bdl-india.in/sites/default/files/On-line%20training%20on%20e-procurement%20system_1.pdf#overlay-context=e-procurement-training%3Fq%3De-procurement-training"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/ep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep1_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="MESSAGE TO VENDORS"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep2_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep2"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://www.bdl-india.in/sites/default/files/Message%20to%20Bidders%20%20Suppliers%20on%20e-Procurement.pdf#overlay-context=msg-vendors%3Fq%3Dmsg-vendors"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/ep3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep2_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="INSTRUCTIONS AND MANUALS"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="1. BIDDER USER MANUAL FOR E-PROCUREMENT"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep31_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep31"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://www.bdl-india.in/sites/default/files/Bidder_User%20Manual%20eTender-BDL%20Revised.pdf#overlay-context=instructions-and-manuals%3Fq%3Dinstructions-and-manuals"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/ep32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep31_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="2. DOS AND DONT'S OF DIGITAL CERTIFICATE"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep32_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep32"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://www.bdl-india.in/sites/default/files/DosnDontsDC_0.pdf#overlay-context=instructions-and-manuals%3Fq%3Dinstructions-and-manuals"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/ep4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep32_link"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text=" PROCEDURE TO OBTAIN DIGITAL SIGNATURE CERTIFICATE"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/ep4_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ep4"
+        android:layout_marginTop="20dp"
+        android:text="@string/digidesc" />
+    <ImageView
+        android:id="@+id/ep4img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep4_desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/digipic" />
+    <TextView
+        android:id="@+id/tend_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ep4img"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="TENDERS AND VENDOR REGISTRATIONS"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/t1_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tend_heading"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/tend1link"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/t2_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1_link"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/tend2link"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+
+
+
+
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>

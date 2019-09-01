@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="@android:color/white">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/Careers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="CAREERS"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recrui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Careers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="RECRUITMENTS"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/careerimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recrui"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/careerimage" />
+    <TextView
+        android:id="@+id/careerlink1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerimg"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink1"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink1"
+        android:layout_marginTop="20dp"
+        android:text="(This link shall take you to a page outside the BDL Website http://bdl-india.in. For any query regarding the contents of the linked page, please contact the webmaster of the concerned website)" />
+
+    <TextView
+        android:id="@+id/careerlink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerdesc"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink2"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink2"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink3"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink3"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink4"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink4"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink5"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink5"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink6"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink6"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink7"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/appren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="APPRENTICE CONNECT"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/apprenimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appren"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/skill_india" />
+
+    <TextView
+        android:id="@+id/careerlink8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apprenimg"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink8"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink8"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink9"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/careerlink10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/careerlink9"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/careerlink10"
+        android:textColorLink="@android:color/holo_blue_dark" />
+
+
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

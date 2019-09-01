@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/Exports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="EXPORTS"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/expolink1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Exports"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/expolink1"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/expolink2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expolink1"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/expolink2"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/expolink3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expolink2"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/expolink3"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/expolink4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expolink3"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/expolink4"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/expolink5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expolink4"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/expolink5"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/expolink6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expolink5"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:linksClickable="true"
+        android:text="@string/expolink6"
+        android:textColorLink="@android:color/holo_blue_dark" />
+    <TextView
+        android:id="@+id/det"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expolink6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="FOR FURTHER DETAILS,CONTACT:"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/expodesc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/det"
+        android:layout_marginTop="20dp"
+        android:text="@string/expodesc1"/>
+
+
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>

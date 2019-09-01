@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <TextView
+        android:id="@+id/Directors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="DIRECTORS"
+        android:textColor="@android:color/holo_red_dark"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/directorsprofile_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Directors"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="DIRECTOR'S PROFILE"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/cmde_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/directorsprofile_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="CHAIRMAN AND MANAGING DIRECTOR"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/cmde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cmde_heading"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cmde1" />
+    <TextView
+        android:id="@+id/cmde1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cmde"
+        android:layout_marginTop="20dp"
+        android:text="@string/cmde1desc" />
+    <TextView
+        android:id="@+id/gdir_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cmde1desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="GOVERNMENT DIRECTORS"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/govdir1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gdir_heading"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/govdir1" />
+    <TextView
+        android:id="@+id/gdir1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/govdir1"
+        android:layout_marginTop="20dp"
+        android:text="@string/gd1desc" />
+    <ImageView
+        android:id="@+id/govdir2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gdir1desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/govdir2" />
+    <TextView
+        android:id="@+id/gdir2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/govdir2"
+        android:layout_marginTop="20dp"
+        android:text="@string/gd2desc" />
+    <TextView
+        android:id="@+id/full_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gdir2desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="FULL TIME DIRECTORS"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/full1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full_heading"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/full1" />
+    <TextView
+        android:id="@+id/f1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full1"
+        android:layout_marginTop="20dp"
+        android:text="@string/f1desc" />
+    <ImageView
+        android:id="@+id/full2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f1desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/full2" />
+    <TextView
+        android:id="@+id/f2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full2"
+        android:layout_marginTop="20dp"
+        android:text="@string/f2desc" />
+    <ImageView
+        android:id="@+id/full3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f2desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/full3" />
+    <TextView
+        android:id="@+id/f3desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/full3"
+        android:layout_marginTop="20dp"
+        android:text="@string/f3desc" />
+    <TextView
+        android:id="@+id/indep_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f3desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="INDEPENDENT DIRECTORS"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/indep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indep_heading"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/indep1" />
+    <TextView
+        android:id="@+id/i1desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indep1"
+        android:layout_marginTop="20dp"
+        android:text="@string/i1desc" />
+    <ImageView
+        android:id="@+id/indep2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i1desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/indep2" />
+    <TextView
+        android:id="@+id/i2desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indep2"
+        android:layout_marginTop="20dp"
+        android:text="@string/i2desc" />
+    <ImageView
+        android:id="@+id/indep3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i2desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/indep3" />
+    <TextView
+        android:id="@+id/i3desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indep3"
+        android:layout_marginTop="20dp"
+        android:text="@string/i3desc" />
+    <ImageView
+        android:id="@+id/indep4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i3desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/indep4" />
+    <TextView
+        android:id="@+id/i4desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indep4"
+        android:layout_marginTop="20dp"
+        android:text="@string/i4desc" />
+    <ImageView
+        android:id="@+id/indep5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i4desc"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/indep5" />
+    <TextView
+        android:id="@+id/i5desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/indep5"
+        android:layout_marginTop="20dp"
+        android:text="@string/i5desc" />
+    <TextView
+        android:id="@+id/principles_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/i5desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="PRINCIPLE EXECUTIVES OF BDL"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/principles_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/principles_heading"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="@string/bdl_link_example"
+        android:textColor="@android:color/holo_blue_dark" />
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>
