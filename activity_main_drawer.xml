@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_login_24dp"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_24dp"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_directors"
+            android:icon="@drawable/ic_directors_24dp"
+            android:title="Directors" />
+        <item
+            android:id="@+id/nav_investors"
+            android:icon="@drawable/ic_investors_24dp"
+            android:title="Investors" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_products_24dp"
+            android:title="Products" />
+        <item
+            android:id="@+id/nav_rtiact"
+            android:icon="@drawable/ic_rtiact_24dp"
+            android:title="RTI-Act" />
+        <item
+            android:id="@+id/nav_suppliers"
+            android:icon="@drawable/ic_suppliers_24dp"
+            android:title="Suppliers" />
+        <item
+            android:id="@+id/nav_careers"
+            android:icon="@drawable/ic_careers_24dp"
+            android:title="Careers" />
+        <item
+            android:id="@+id/nav_exports"
+            android:icon="@drawable/ic_exports_24dp"
+            android:title="Exports" />
+
+    </group>
+
+    <item android:title="Communicate with us">
+        <menu>
+            <item
+                android:id="@+id/nav_wp"
+                android:icon="@drawable/ic_welfareprivacy_24dp"
+                android:title="Welfare and Privacy" />
+            <item
+                android:id="@+id/nav_contactus"
+                android:icon="@drawable/ic_c1_24dp"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
